@@ -32,7 +32,6 @@ class MainActivity : AppCompatActivity() {
             val c = IntArray(5)
             val res = IntArray(5)
 
-
             for(i in res.indices){
                 c[i] = Random.nextInt(52)
                 res[i] = resources.getIdentifier(getCardName(c[i]), "drawable", packageName)
